@@ -1,0 +1,37 @@
+{
+    "windows":{
+      "command":[
+        {"name":"getWifiPass","code":"GWPSD","type":"c","inputNo":0,"param":[]},
+        {"name":"Shutdown pc","code":"SHDPC","type":"e","inputNo":0,"param":[]}
+      ]
+    },
+    "android":{
+      "command":[
+        {"name":"getContact","code":"GECON","type":"c","inputNo":0,"param":[]},
+        {"name":"set volume up","code":"VOLUP","type":"e","inputNo":0,"param":[]}
+      ]
+    },
+    "web":{
+      "command":[
+        {"name":"web details","code":"WEBDT","type":"c","inputNo":0,"param":[]},
+        {"name":"redirect to page","code":"RDRPG","type":"e","inputNo":1,"param":["site"]}
+      ]
+    },
+    "server":{
+      "command":[
+        {"name":"getWifiPass","code":"GWP15","type":"c","inputNo":0,"param":[]},
+        {"name":"Shutdown pc","code":"SHD15","type":"e","inputNo":0,"param":[]}
+      ]
+    },
+    "ios":{
+      "command":[
+        {"name":"getWifiPass","code":"GWP15","type":"c","inputNo":0,"param":[]},
+        {"name":"Shutdown pc","code":"SHD15","type":"e","inputNo":0,"param":[]}
+      ]
+    },
+    "extension":{"command":[
+        {"name":"getWifiPass","code":"GWP15","type":"c","inputNo":0,"param":[]},
+        {"name":"Shutdown pc","code":"SHD15","type":"e","inputNo":0,"param":[]}
+      ]}
+  
+  }
